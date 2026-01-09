@@ -1,0 +1,74 @@
+.ingredient-search-page {
+    padding: 3rem 0;
+    min-height: 60vh;
+}
+
+.search-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.search-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-dark);
+}
+
+.search-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.ingredient-search-form {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.search-input-wrapper {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input-wrapper svg {
+    position: absolute;
+    left: 1.25rem;
+    color: var(--text-secondary);
+    font-size: 1.25rem;
+}
+
+.search-input-wrapper input {
+    width: 100%;
+    padding: 1.25rem 1.25rem 1.25rem 3.5rem;
+    border: 2px solid #e5e7eb;
+    border-radius: var(--radius-xl);
+    font-size: 1.05rem;
+}
+
+.ingredient-search-form button {
+    padding: 1.25rem 2.5rem;
+    white-space: nowrap;
+}
+
+.results-section {
+    margin-top: 3rem;
+}
+
+.results-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-dark);
+}
+
+@media (max-width: 640px) {
+    .ingredient-search-form {
+        flex-direction: column;
+    }
+
+    .ingredient-search-form button {
+        width: 100%;
+    }
+}
